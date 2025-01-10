@@ -6,5 +6,5 @@ RUN apt-get update && apt-get install -y \
 WORKDIR app/
 COPY ano.app .
 RUN pip3 install 
-MAKE 6000
+EXPOSE 6000
 CMD ["python","ano-app"]
