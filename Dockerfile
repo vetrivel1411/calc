@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y \
 WORKDIR app/
 COPY ano.app .
 EXPOSE 6000
-CMD ["python","ano-app"]
+CMD ["python3","ano-app"]
